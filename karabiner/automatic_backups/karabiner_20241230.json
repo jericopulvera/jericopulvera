@@ -1,0 +1,34 @@
+{
+    "global": { "show_in_menu_bar": false },
+    "profiles": [
+        {
+            "fn_function_keys": [
+                {
+                    "from": { "key_code": "f1" },
+                    "to": [{ "apple_vendor_keyboard_key_code": "brightness_down" }]
+                },
+                {
+                    "from": { "key_code": "f2" },
+                    "to": [{ "apple_vendor_keyboard_key_code": "brightness_up" }]
+                }
+            ],
+            "simple_modifications": [
+                {
+                    "from": {
+                        "key_code": "tab",
+                        "modifiers": { "mandatory": ["left_command"] }
+                    },
+                    "to": [
+                        {
+                            "key_code": "spacebar",
+                            "modifiers": ["left_command"]
+                        }
+                    ]
+                }
+            ],
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}

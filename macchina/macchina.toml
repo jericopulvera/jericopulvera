@@ -1,0 +1,43 @@
+# Displays only the specified readouts.
+# Accepted values (case-sensitive):
+#   - Host
+#   - Machine
+#   - Kernel
+#   - Distribution
+#   - OperatingSystem
+#   - DesktopEnvironment
+#   - WindowManager
+#   - Resolution
+#   - Backlight
+#   - Packages
+#   - LocalIP
+#   - Terminal
+#   - Shell
+#   - Uptime
+#   - Processor
+#   - ProcessorLoad
+#   - Memory
+#   - Battery
+#   - GPU
+#   - DiskSpace
+#   - CPUTemp
+
+
+interface = "wlan0"
+physical_cores = true
+long_uptime = true
+long_shell = false
+long_kernel = false
+current_shell = false
+
+theme = "Lithium"
+
+show = [
+  "OperatingSystem",
+  "Processor",
+  "Memory",
+  "Uptime",
+  "Terminal",
+  "Resolution",
+  "Shell",
+]
